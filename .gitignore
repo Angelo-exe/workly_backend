@@ -1,3 +1,9 @@
 # https://dart.dev/tools/private-files
 # Created by `dart pub`
 .dart_tool/
+
+# Dati locali dell'applicazione
+#Questo evita che i file JSON delle aziende, delle candidature e i curriculum PDF
+#vengano caricari accidentalmente su GitHub
+/data/
+/uploads/
